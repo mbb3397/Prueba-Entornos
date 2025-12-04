@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>NovaLearn</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div><p class="logo">NovaLearn</p></div>
+                <div class="nav">
+                    <nav>
+                        <a>Cursos</a>
+                        <a>Por qué NovaLearn</a>
+                        <a>Contacto</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="Habilidades">
+                <h1 class="Aprende">Aprende hoy las habilidades del mañana</h1>
+                <p>
+                    Cursos online de programación, diseño y marketing, creados por profesionales en activo. Estudia a tu
+                    ritmo, desde cualquier lugar.
+                </p>
+                <p class="Ver">Ver Cursos</p>
+            </div>
+            <div>
+                <h2>Cursos Destacados</h2>
+                <div class="tarjetas">
+                    <div class="tarjeta">
+                        <h3>Desarrollo Web desde Cero</h3>
+                        <p>Aprende HTML,CSS y JavaScript creando tus primeras páginas web profesionales</p>
+                        <p class="precio">129 Euros</p>
+                        <p class="boton">Más información</p>
+                    </div>
+                    <div class="tarjeta">
+                        <h3>Python para Data Science</h3>
+                        <p>Domina Python, análisis de datos y visualización con proyectos prácticos</p>
+                        <p class="precio">159 Euros</p>
+                        <p class="boton">Más información</p>
+                    </div>
+                    <div class="tarjeta">
+                        <h3>Marketing Digital 360ª</h3>
+                        <p>Crea capañas efectivas en redes sociales, emaill y SEO para cualquier negocio.</p>
+                        <p class="precio">139 Euros</p>
+                        <p class="boton">Más información</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2>Contacto</h2>
+                <p>¿Tienes dudas sobre algún curso? Escribenos a <a class="mail">info@novalearn.com.</a></p>
+                <form action="">
+                    <label for="Nombre">Nombre:</label><br>
+                <input type="text"><br>
+                    <label for="Edad">¿Eres mayor de edad?</label><br>
+                    <input type="checkbox">Si <input type="checkbox"> No <br>
+                </form>
+            </div>
+        </main>
+        <footer><p class="footer">2024 NovaLearn Academia Online · Todos los derechos reservados</p></footer>
+    </body>
+</html>
